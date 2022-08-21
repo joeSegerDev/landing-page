@@ -86,3 +86,43 @@ body {
     padding: 6px 12px;
     font-size: 20px;
 }
+
+.section2 {
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 128px;
+}
+
+.section2-title {
+    flex:1 0 auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 64px;
+}
+
+.section2-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.section2-item {
+    flex: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color:#1F2937;
+}
+
+.item-image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
