@@ -190,3 +190,13 @@ body {
     color:#E5E7EB;
     text-decoration: none;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #E5E7Eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
