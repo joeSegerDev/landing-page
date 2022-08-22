@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 body {
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Roboto', sans-serif;
     
 }
 
@@ -68,7 +70,7 @@ body {
 
 .hero-main {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color:#F9FaF8;
 }
 
@@ -79,6 +81,7 @@ body {
 }
 
 .section1-signup {
+    border: none;
     background-color: #3882F6;
     color: #E5E7Eb;
     width: 140px;
@@ -125,4 +128,26 @@ body {
     display: block;
     border: 4px solid #3882F6;
     border-radius: 20px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
